@@ -184,7 +184,7 @@ let $questions = [{
         "answer": "c"
 },  
 {
-        "question" : 'SELECT ssn\nFROM EMPLOYEE\nWHERE salary > ALL\n\t(SELECT salary\n\tFROM employee\n\tWHERE dno = 3)',
+        "question" : "SELECT ssn FROM EMPLOYEE WHERE salary > ALL (SELECT salary FROM employee\ WHERE dno = 3)",
         "a": "The query will return the salaries of all employees in department 3.",
         "b": "The query will return the employee ssn for the employee with the largest salary in department 3.",
         "c": "The query will return all employee ssn's for employees with a salary less than all employees in department 3.",
