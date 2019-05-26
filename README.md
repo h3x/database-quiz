@@ -1,1 +1,1 @@
-# quiz [here](https://h3x.github.io/webdev-quiz/)
+# quiz [here](https://h3x.github.io/database-quiz/)
